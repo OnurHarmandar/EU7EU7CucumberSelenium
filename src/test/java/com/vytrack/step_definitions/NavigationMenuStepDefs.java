@@ -29,7 +29,7 @@ public class NavigationMenuStepDefs {
 
     @Then("the title should be Campaigns")
     public void the_title_should_be_Campaigns() {
-        System.out.println("The title is Campaigns");
+        System.out.println("The title  is Campaigns");
     }
 
 
