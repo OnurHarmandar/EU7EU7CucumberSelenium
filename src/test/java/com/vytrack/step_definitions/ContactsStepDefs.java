@@ -6,6 +6,7 @@ import com.vytrack.utilities.BrowserUtils;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -33,5 +34,6 @@ public class ContactsStepDefs {
         Assert.assertEquals(expectedUsername,actualUsername);
         System.out.println("actualUsername = " + actualUsername);
         System.out.println("expectedUsername = " + expectedUsername);
+
     }
 }
