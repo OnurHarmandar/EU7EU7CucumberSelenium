@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/vytrack/step_definitions",
-        dryRun = false,
-        tags = "@smoke"
+        dryRun = true,
+        tags = "@wip"
 
 )
 

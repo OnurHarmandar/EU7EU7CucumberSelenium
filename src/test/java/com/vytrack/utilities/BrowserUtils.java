@@ -88,11 +88,12 @@ public class BrowserUtils {
      * @param element
      * @param timeToWaitInSec
      * @return
-     */
+
     public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec) {
         WebDriverWait wait = new WebDriverWait(Driver.get(), timeToWaitInSec);
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
+    */
 
     /**
      * Waits for element matching the locator to be visible on the page
@@ -374,6 +375,7 @@ public class BrowserUtils {
     public static void waitForPresenceOfElement(By by, long time) {
         new WebDriverWait(Driver.get(), time).until(ExpectedConditions.presenceOfElementLocated(by));
     }
+
 
 
 

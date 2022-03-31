@@ -58,3 +58,9 @@ Feature: Contacts page
           |user           |firstname  |lastname|
           |user10         |John       |Doe     |
           |storemanager85 |John       |Doe     |
+@wip
+Scenario: Contacts test with email
+  Given the user logged in as "salesmanager"
+  And the user navigates to "Customers" "Contacts"
+  When the user clicks the "smyvbsjn@gmail.com " from contacts
+  Then the information should be same with database

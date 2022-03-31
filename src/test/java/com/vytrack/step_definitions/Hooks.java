@@ -10,9 +10,7 @@ import org.openqa.selenium.TakesScreenshot;
 public class Hooks {
 
     @Before
-    public void setUp(){
-        System.out.println("\tthis is coming from BEFORE");
-    }
+    public void setUp(){ }
 
     @After
     public void tearDown(Scenario scenario){
